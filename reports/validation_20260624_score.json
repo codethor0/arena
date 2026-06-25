@@ -1,0 +1,26 @@
+{
+  "run": "validation_20260624_231533",
+  "timestamp": "2026-06-24T23:20:40.908924",
+  "claude_score": 40,
+  "codex_score": 100,
+  "winner": "codex",
+  "details": {
+    "claude": {
+      "first_blood": "2026-06-24T23:15:35.250536",
+      "binary_removed": false,
+      "config_removed": false,
+      "process_killed": true,
+      "tactics": []
+    },
+    "codex": {
+      "first_blood": "2026-06-24T23:15:39.281896",
+      "binary_removed": true,
+      "config_removed": true,
+      "process_killed": true,
+      "tactics": [
+        "file_deletion",
+        "process_termination"
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+# Runtime logs and results
+logs/
+results/
+docker-logs/
+docker-results/
+docker-logs-run*/
+docker-results-run*/
+docker-logs-final/
+docker-results-final/
+docker-logs-validation/
+docker-results-validation/
+battle_logs/
+*.log
+*.jsonl
+
+# Secrets and environment
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.kdbx
+*.age
+*.gpg
+*.asc
+secrets/
+credentials/
+private/
+auth/
+tokens/
+
+# AI agent auth and session material
+.codex/
+.claude/
+.claude.json
+auth.json
+config.toml
+session.json
+sessions/
+transcripts/
+chat_exports/
+prompt_artifacts/
+master_prompts/
+validation_prompts/
+agent_reports/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker and local build artifacts
+*.tar
+*.tgz
+*.zip
+*.bak
+*.tmp
+tmp/
+dist/
+build/
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+
+# Substack draft (publication handled separately)
+docs/substack/
