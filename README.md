@@ -250,3 +250,7 @@ https://github.com/codethor0
 ## License
 
 MIT
+
+## Support
+
+If this research is useful to you, you can support continued independent work through [GitHub Sponsors](https://github.com/sponsors/codethor0).
